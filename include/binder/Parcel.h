@@ -343,6 +343,7 @@ public:
 #ifndef DISABLE_ASHMEM_TRACKING
 private:
     size_t mOpenAshmemSize;
+#endif
 
 public:
     // TODO: Remove once ABI can be changed.
