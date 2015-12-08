@@ -342,11 +342,12 @@ public:
 
 #ifndef DISABLE_ASHMEM_TRACKING
 private:
-    size_t mBlobAshmemSize;
-#endif
+    size_t mOpenAshmemSize;
 
 public:
+    // TODO: Remove once ABI can be changed.
     size_t getBlobAshmemSize() const;
+    size_t getOpenAshmemSize() const;
 };
 
 // ---------------------------------------------------------------------------
