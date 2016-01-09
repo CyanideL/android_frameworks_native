@@ -320,7 +320,7 @@ enum {
      * UI night mode: value that corresponds to
      * <a href="@dacRoot/guide/topics/resources/providing-resources.html#NightQualifier">night</a> resource qualifier specified.
      */
-    ACONFIGURATION_UI_MODE_NIGHT_CUSTOM_1 = 0x4,
+    ACONFIGURATION_UI_MODE_NIGHT_RANDOM = 0x4,
     /**
      * UI night mode: value that corresponds to
      * <a href="@dacRoot/guide/topics/resources/providing-resources.html#NightQualifier">night</a> resource qualifier specified.
